@@ -1061,4 +1061,8 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.info_links a img {
+  color: #fafafa;
+}
 /*# sourceMappingURL=style.css.map */
