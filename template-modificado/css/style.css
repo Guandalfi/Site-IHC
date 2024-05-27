@@ -743,6 +743,7 @@ a:focus {
 
 #price-box-standard {
   padding-top: 6%;
+  border: 3px solid var(--roxo);
 }
 
 .client_section {
