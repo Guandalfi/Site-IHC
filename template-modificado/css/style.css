@@ -632,18 +632,19 @@ a:focus {
 .server_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ff4646;
+  background-color: var(--roxo);
   color: #ffffff;
   border-radius: 5px;
-  border: 1px solid #ff4646;
+  border: 1px solid #ffffff;
   -webkit-transition: all .3s;
   transition: all .3s;
   margin-top: 25px;
 }
 
 .server_section .detail-box a:hover {
-  background-color: transparent;
-  color: #ff4646;
+  background-color: var(--azulhover);
+  color: #ffffff;
+  border: var(--azulhover);
 }
 
 .price_section .price_container {
@@ -665,7 +666,7 @@ a:focus {
 .price_section .price_container .box .detail-box {
   width: 300px;
   padding: 40px 20px 15px 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 25px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
@@ -702,40 +703,40 @@ a:focus {
 .price_section .price_container .box .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #ff4646;
+  background-color: var(--roxo);
   color: #ffffff;
   border-radius: 5px;
-  border: 1px solid #ff4646;
+  border: 1px solid var(--roxo);
   -webkit-transition: all .3s;
   transition: all .3s;
   border: none;
 }
 
 .price_section .price_container .box .btn-box a:hover {
-  background-color: transparent;
-  color: #ff4646;
+ /* background-color: var(--azulhover);
+  color: #ffffff;*/
 }
 
 .price_section .price_container .box .btn-box a:hover {
-  background-color: #03a7d3;
-  color: #ffffff;
+  /*background-color: #03a7d3;
+  color: #ffffff;*/
 }
 
 .price_section .price_container .box:hover {
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
 
 .price_section .price_container .box:hover .detail-box {
-  background-color: #03a7d3;
+  /*background-color: #03a7d3;*/
 }
 
 .price_section .price_container .box:hover h6 {
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
 
 .price_section .price_container .box:hover a {
-  background-color: #03a7d3;
-  color: #ffffff;
+  /*background-color: #03a7d3;
+  color: #ffffff;*/
 }
 
 .client_section {
