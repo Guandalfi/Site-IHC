@@ -713,21 +713,23 @@ a:focus {
 }
 
 .price_section .price_container .box .btn-box a:hover {
- /* background-color: var(--azulhover);
-  color: #ffffff;*/
+  background-color: var(--azulhover);
+  color: #ffffff;
 }
 
-.price_section .price_container .box .btn-box a:hover {
-  /*background-color: #03a7d3;
-  color: #ffffff;*/
-}
+/*.price_section .price_container .box .btn-box a:hover {
+  background-color: #03a7d3;
+  color: #ffffff;
+}*/
 
 .price_section .price_container .box:hover {
   /*color: #ffffff;*/
+  transition: .5s ease-in-out;
+  transform: scale(1.1);
 }
 
 .price_section .price_container .box:hover .detail-box {
-  /*background-color: #03a7d3;*/
+  /*background-color: #03a7d3;*/  
 }
 
 .price_section .price_container .box:hover h6 {
