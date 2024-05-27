@@ -1029,19 +1029,22 @@ a:focus {
   width: 100%;
   text-align: center;
   display: inline-block;
-  padding: 10px 55px;
+  padding: 5px 5px;
   background-color: var(--roxo);
   color: #ffffff;
-  border-radius: 0;
-  border: 1px solid var(--roxo);
+  border-radius: 5px;
+  border: 1px solid #ffffff;
   -webkit-transition: all .3s;
   transition: all .3s;
   margin-top: 15px;
+
 }
 
 .info_section form button:hover {
-  background-color: transparent;
+  background-color: var(--azulhover);
+  border: transparent;
   color: #ffffff;
+
 }
 
 /* end info section */
