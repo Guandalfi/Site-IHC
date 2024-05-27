@@ -728,17 +728,21 @@ a:focus {
   transform: scale(1.1);
 }
 
-.price_section .price_container .box:hover .detail-box {
-  /*background-color: #03a7d3;*/  
-}
+/*.price_section .price_container .box:hover .detail-box {
+  background-color: #03a7d3;
+}*/
 
-.price_section .price_container .box:hover h6 {
-  /*color: #ffffff;*/
-}
+/*.price_section .price_container .box:hover h6 {
+  color: #ffffff;
+}*/
 
-.price_section .price_container .box:hover a {
-  /*background-color: #03a7d3;
-  color: #ffffff;*/
+/*.price_section .price_container .box:hover a {
+  background-color: #03a7d3;
+  color: #ffffff;
+}*/
+
+#price-box-standard {
+  padding-top: 6%;
 }
 
 .client_section {
@@ -791,7 +795,7 @@ a:focus {
 
 .client_section .box .client_info .client_name h6 {
   margin-bottom: 0;
-  color: #ff4646;
+  color: #000000;
   font-weight: normal;
   font-size: 14px;
   text-transform: uppercase;
@@ -887,18 +891,19 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 15px 65px;
-  background-color: #ff4646;
+  background-color: var(--roxo);
   color: #ffffff;
-  border-radius: 0;
-  border: 1px solid #ff4646;
+  border-radius: 5px;
+  border: 1px solid var(--roxo);
   -webkit-transition: all .3s;
   transition: all .3s;
   font-weight: bold;
 }
 
 .contact_section .form_container button:hover {
-  background-color: transparent;
-  color: #ff4646;
+  background-color: var(--azulhover);
+  border: var(--roxo);
+  color: #ffffff;
 }
 
 /* info section */
@@ -932,7 +937,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #ff4646;
+  color: var(--azulhover);
 }
 
 .info_section .info_social {
@@ -958,8 +963,8 @@ a:focus {
   font-size: 24px;
 }
 
-.info_section .info_social a:hover {
-  color: #baa9ee;
+.info_section .info_social i:hover {
+  color: var(--azulhover);
 }
 
 .info_section .info_links {
