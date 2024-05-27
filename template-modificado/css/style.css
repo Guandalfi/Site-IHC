@@ -1,5 +1,6 @@
 :root {
   --roxo: #673de6;
+  --azulhover: #03a7d3; 
 }
 
 body {
@@ -329,14 +330,15 @@ a:focus {
   background-color: var(--roxo);
   color: #ffffff;
   border-radius: 5px;
-  border: 1px solid #007c9e;
+  border: 1px solid var(--roxo);
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .slider_section .detail-box .btn-1:hover {
-  background-color: transparent;
-  color: #b73bff;
+  background-color: var(--azulhover);
+  color: #ffffff;
+  border: var(--azulhover)
 }
 
 .slider_section .detail-box .btn-2 {
@@ -345,14 +347,15 @@ a:focus {
   background-color: var(--roxo);
   color: #ffffff;
   border-radius: 5px;
-  border: 1px solid #007c9e;
+  border: 1px solid var(--roxo);
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .slider_section .detail-box .btn-2:hover {
-  background-color: transparent;
-  color: #d979ff;
+  background-color: var(--azulhover);
+  color: #ffffff;
+  border: var(--azulhover);
 }
 
 .slider_section .img-box img {
@@ -411,18 +414,18 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ff4646;
+  background-color: var(--roxo);
   color: #ffffff;
   border-radius: 5px;
-  border: 1px solid https://github.com/JoseMarceloLeandro/Site-IHC.git;
+  border: 1px solid;
   -webkit-transition: all .3s;
   transition: all .3s;
   margin-top: 15px;
 }
 
 .about_section .detail-box a:hover {
-  background-color: transparent;
-  color: #ff4646;
+  background-color: var(--azulhover);
+  color: #ffffff;
 }
 
 .service_section {
